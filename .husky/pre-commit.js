@@ -1,9 +1,7 @@
 import { readFileSync } from "fs"
 
 const commitMessage = await readFileSync('.git/COMMIT_EDITMSG');
-// console.log('Commit message:', commitMessage.toString().trim());
 
-// const regexPattern = '^(feat|fix|docs|style|refactor|perf|test|build|ci|temp)(\([a-zA-Z0-9_\-]+\))?:\s.+$';
 const regexPattern = /^(build|chore|ci|docs|feat|fix|perf|refactor|revert|style|test){1}(\([\w\-\.]+\))?(!)?: ([\w ])+([\s\S]*)/g;
 const regularExpression = new RegExp(regexPattern);
 if (regularExpression.test(commitMessage)) {

@@ -1,5 +1,1 @@
-echo "prepare-commit-msg"
-
-cat .git/COMMIT_EDITMSG
-
 node .husky/pre-commit.js
