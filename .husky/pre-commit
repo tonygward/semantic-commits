@@ -1,8 +1,8 @@
 # npm test
 
-echo "debug start"
-cat .git/COMMIT_EDITMSG
-echo "end debug"
+# echo "debug start"
+# cat .git/COMMIT_EDITMSG
+# echo "end debug"
 
 # node .husky/pre-commit.js
 
