@@ -1,3 +1,5 @@
 # npm test
 
+cat .git/COMMIT_EDITMSG
+
 node .husky/pre-commit.js
