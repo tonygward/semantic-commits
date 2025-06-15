@@ -4,3 +4,4 @@ cat .git/COMMIT_EDITMSG
 
 # node .husky/pre-commit.js
 
+# exit 1

@@ -14,3 +14,4 @@ if (new RegExp(regexPattern).test(commitMessage)) {
   console.log('*** Example: feat(123): add new feature ***');
   process.exit(1); // Simulate a failure
 }
+
