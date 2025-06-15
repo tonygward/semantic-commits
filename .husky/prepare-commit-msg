@@ -1,1 +1,3 @@
-echo prepare-commit-msg
+echo "prepare-commit-msg"
+
+cat .git/COMMIT_EDITMSG
