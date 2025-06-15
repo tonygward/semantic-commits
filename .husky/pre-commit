@@ -1,6 +1,1 @@
-#!/bin/sh
-. "$(dirname "$0")/_/husky.sh"
-
-npm run precommit
-
-echo "hi world"
+npm test
